@@ -14,7 +14,7 @@ export class AppComponent {
         Authorization: "Bearer " + localStorage.getItem("userToken")
       }
     },
-    options: {
+    plugins: {
       Webcam: true
     }
   };
